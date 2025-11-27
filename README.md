@@ -4,6 +4,29 @@ A collections of C header files for common data structures using macros for gene
 > This is type-safe    
 > This is inline-able implementations without external dependencies.
 
+**DYNAMIC TYPE MANUAL (#include "include/dyn.h")**
+
+PURPOSE: Store multiple data types (int, float, char) in unified type
+
+FUNCTIONS:
+- eval(value)       - Initialize dynamic variable
+- dint(dynamic)     - Extract int value
+- dfloat(dynamic)   - Extract float value  
+- dchar(dynamic)    - Extract char value
+
+USAGE:
+dynamic var = eval(5);        // Create with int
+dynamic var = eval(3.14);     // Create with float
+dynamic var = eval('A');      // Create with char
+
+int i = dint(var);           // Get int value
+float f = dfloat(var);       // Get float value
+char c = dchar(var);         // Get char value
+
+NOTE: Automatic type handling in operations
+
+
+
 
 **LINEAR DATA STRUCTURES HEADER MANUAL (#include "include/linear.h")**
 
