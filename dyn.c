@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /*
-    Here, we introduce a datatype dynamic.
+    Here, we introduce a datatype dynamic in c.
     dynamic can store any three of these: int, float, char.
     eval() is the initialization
     dint(), dfloat(), dchar() is needed to scrap the value from variable.  
