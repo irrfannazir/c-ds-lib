@@ -1,8 +1,8 @@
 Macro-Based Data Structure Libraries
 
 A collections of C header files for common data structures using macros for generic programming.    
->> This is type-safe    
->> This is inline-able implementations without external dependencies.
+> This is type-safe    
+> This is inline-able implementations without external dependencies.
 
 
 **LINEAR DATA STRUCTURES HEADER MANUAL (#include "include/linear.h")**
