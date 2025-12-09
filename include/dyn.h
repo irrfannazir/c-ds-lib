@@ -1,6 +1,8 @@
 #ifndef DYN_H
 #define DYN_H
 
+#define MAIN(PGM) int main(){PGM; return 0;}
+
 typedef enum {
     INTEGER,
     DECIMAL,
