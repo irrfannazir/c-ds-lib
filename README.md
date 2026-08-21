@@ -9,16 +9,13 @@ A collection of C header files implementing common data structures using macros 
 - **No external dependencies** - pure C standard library
 - **Self-contained headers** - just include and use
 
-## Table of Contents
 
-- [Installation](#installation)
 - [Modules](#modules)
   - [Dynamic Type (dyn.h)](#dynamic-type-dynh)
   - [Linear Data Structures (linear.h)](#linear-data-structures-linearh)
   - [Linked List (list.h)](#linked-list-listh)
   - [File Handling (fh.h)](#file-handling-fhh)
   - [String Operations (sh.h)](#string-operations-shh)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Program
